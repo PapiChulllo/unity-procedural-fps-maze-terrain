@@ -1,2 +1,10 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Keep authored C# visible in GitHub language statistics.
+*.cs linguist-detectable=true linguist-generated=false
+
+# Unity and Package Manager generated metadata/settings.
+*.meta linguist-generated=true
+ProjectSettings/** linguist-generated=true
+Packages/packages-lock.json linguist-generated=true
